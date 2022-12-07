@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 07 Dec 2022 10:02:03 +0100
+Source: mydep-office
+Binary: mydep-office
+Architecture: all
+Version: 11.5
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-office - My meta-package to install office-related packages
+Changes:
+ mydep-office (11.5) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ fe48c92a0c99f3dcea5d3138516e4841dc2608fc 2340 mydep-office_11.5_all.deb
+ 3ed39cf6b6b57f98c761493371ea708cc4d8c384 5087 mydep-office_11.5_amd64.buildinfo
+Checksums-Sha256:
+ a73713b436676b3d3dbd14d04a70c4da3ca5646fb846b533d8517f2a361d3eb4 2340 mydep-office_11.5_all.deb
+ b18891ccdb169dbb6bd5dc21012a50a4066bc95f2bf4f550c3759a064a1e2a04 5087 mydep-office_11.5_amd64.buildinfo
+Files:
+ abde38679af2ea89c71515eb214aeee6 2340 misc optional mydep-office_11.5_all.deb
+ d3556fe4e7632138c7dca5075ef6d283 5087 misc optional mydep-office_11.5_amd64.buildinfo

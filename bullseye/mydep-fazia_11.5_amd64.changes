@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 07 Dec 2022 10:18:23 +0100
+Source: mydep-fazia
+Binary: mydep-fazia
+Architecture: all
+Version: 11.5
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-fazia - My meta-package to install dependencies required by FAZIA softwar
+Changes:
+ mydep-fazia (11.5) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 72ca0d68cc2deeb595fb904feb9327cbe1fc6569 2576 mydep-fazia_11.5_all.deb
+ 867b0c874f242ff60b7bf8391189ef37ed7b72e8 5082 mydep-fazia_11.5_amd64.buildinfo
+Checksums-Sha256:
+ 00692d9696edc80c4ed08c90e1c06515677bc502a6f6913034cc88a544a5ec8a 2576 mydep-fazia_11.5_all.deb
+ ebcca6f38f3cdee1bac7a512576b71abddb6b8d3eda2503cb98804be191b1775 5082 mydep-fazia_11.5_amd64.buildinfo
+Files:
+ f8a6c64c40b295dd6e419249879ac680 2576 misc optional mydep-fazia_11.5_all.deb
+ 4c8e08e791c30aa8b04b3e2963c3cd2b 5082 misc optional mydep-fazia_11.5_amd64.buildinfo

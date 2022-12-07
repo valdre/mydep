@@ -1,0 +1,27 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+
+Package: mydep-root
+Version: 11.5-6.26
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+# Pre-Depends: <comma-separated list of packages>
+Depends: git,cmake,make,g++,gcc,binutils,libpython3-dev,python3-numpy,zlib1g-dev,libfreetype-dev,libpcre3-dev,liblzma-dev,libzstd-dev,libxxhash-dev,liblz4-dev,libx11-dev,libxpm-dev,libxft-dev,libxext-dev,libjpeg-dev,libgif-dev,libpng-dev,libtiff-dev,libafterimage-dev,libgsl-dev,libopengl-dev,libglew-dev,libgl2ps-dev,libxml2-dev,libssl-dev,libblas-dev,libz3-dev,libmysql++-dev,libsqlite3-dev,libfftw3-dev,libcfitsio-dev,libxrootd-dev,libgfal2-dev,libftgl-dev,davix-dev,libtbb-dev,python3-pygments,python3-yaml,libxrootd-client-dev
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+# Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: My meta-package to install CERN ROOT required and optional headers and libraries.
