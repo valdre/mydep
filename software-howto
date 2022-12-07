@@ -1,0 +1,142 @@
+***** ROOT
+
+Download:
+	cd /home/software/src
+	git clone http://root.cern.ch/git/root.git
+	cd root
+	git checkout -b <local tag> <remote tag>
+	
+Update sources:
+	cd /home/software/src/root
+	git pull
+	
+Check latest tag:
+	cd /home/software/src/root
+	git tag
+	
+Build and install:
+	cd /home/software/build/root
+	cmake -DCMAKE_INSTALL_PREFIX=/home/software/root /home/software/src/root
+	make -j8 install
+	
+Configure:
+	source /home/software/root/bin/thisroot.sh
+
+
+***** KALIVEDA
+
+Download:
+	cd /home/software/src
+	git clone https://github.com/kaliveda-dev/kaliveda.git
+	cd kaliveda
+	
+Update sources:
+	cd /home/software/src/kaliveda
+	git pull
+	
+Check latest tag:
+	cd /home/software/src/kaliveda
+	git tag
+	
+Build and install:
+	cd /home/software/build/kaliveda
+	cmake -DCMAKE_INSTALL_PREFIX=/home/software/kaliveda -DUSE_INDRAFAZIA=yes /home/software/src/kaliveda
+	make -j8 install
+	
+Configure:
+	[creare il file ~/.kvrootrc copiandolo da un altro pc!]
+	source /home/software/kaliveda/bin/thiskaliveda.sh
+
+
+***** GEANT4
+	
+Download:
+	cd /home/software/src
+	git clone https://github.com/Geant4/geant4.git
+	cd geant4
+	git checkout -b <local tag> <remote tag>
+	
+Update sources:
+	cd /home/software/src/geant4
+	git pull
+	
+Check latest tag:
+	cd /home/software/src/geant4
+	git tag
+	
+Build and install:
+	cd /home/software/build/geant4
+	cmake -DCMAKE_INSTALL_PREFIX=/home/software/geant4 -DGEANT4_BUILD_MULTITHREADED=yes -DGEANT4_INSTALL_DATA=yes -DGEANT4_USE_QT=yes -DGEANT4_USE_OPENGL_X11=yes -DGEANT4_USE_SYSTEM_EXPAT=yes -DGEANT4_USE_SYSTEM_ZLIB=yes -DGEANT4_USE_GDML=yes /home/software/src/geant4/
+	make -j8 install
+	
+Configure:
+	source /home/software/geant4/bin/geant.sh
+
+***** FAZIA-ECC
+
+Download:
+	cd /home/software/src
+	git clone https://gitlab.in2p3.fr/fazia/fazia-ecc.git
+	cd fazia-ecc
+	
+Update sources:
+	cd /home/software/src/fazia-ecc
+	git pull
+	
+Build and install:
+	cd /home/software/build/fazia-ecc
+	cmake -DCMAKE_INSTALL_PREFIX=/home/software/fazia-ecc /home/software/src/fazia-ecc
+	make -j8 install
+	
+Configure:
+	source /home/software/fazia-ecc/bin/thisfaziaecc.sh
+
+
+***** FAZIA DAQ
+
+Download:
+	cd /home/software/src
+	git clone https://github.com/gtortone/FzDAQ.git
+	
+Update sources:
+	cd /home/software/src/FzDAQ
+	git pull
+	
+Check latest tag:
+	cd /home/software/src/FzDAQ
+	git tag
+	
+Build and install:
+	cd /home/software/src/FzDAQ
+	autoreconf -ivf
+	./configure --prefix=/home/software/FzDAQ --with-boost-libdir=/usr/lib/x86_64-linux-gnu
+	make install
+	
+Configure:
+	export PATH=/home/software/FzDAQ/bin:$PATH
+
+
+***** EXIV2
+
+Download:
+	cd /home/software/src
+	git clone https://github.com/Exiv2/exiv2.git
+
+Update sources:
+	cd /home/software/src/exiv2
+	git pull
+
+Check latest tag:
+	cd /home/software/src/exiv2
+	git tag
+	
+Build and install:
+	cd /home/software/src/exiv2
+	cmake -DCMAKE_INSTALL_PREFIX=/home/software/exiv2 -DCMAKE_BUILD_TYPE=Release -DEXIV2_ENABLE_BMFF=on /home/software/src/exiv2/
+	cmake --build .
+	make tests
+	make install
+
+Configure:
+	export PATH=/home/software/exiv2/bin:$PATH
+	export LD_LIBRARY_PATH=/home/software/exiv2/lib:$LD_LIBRARY_PATH
