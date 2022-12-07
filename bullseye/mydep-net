@@ -7,10 +7,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mydep-net
-Version: 11.5
+Version: 11.5-1
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: ftp,default-jre,hostapd,ifupdown,iputils-ping,mtr,net-tools,ntp,snmp,telnet,traceroute,udhcpd,wireshark
+Depends: ftp,default-jre,hostapd,ifupdown,iputils-ping,mtr,net-tools,nmap,ntp,snmp,telnet,traceroute,udhcpd,wireshark
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

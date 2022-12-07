@@ -7,10 +7,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mydep-fazia
-Version: 11.5
+Version: 11.5-1
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: mydep-root,screen,g++,autoconf,automake,libprotobuf-dev (>=2.6),protobuf-compiler,liblog4cpp5-dev (>=1.0),libboost-thread-dev (>=1.55),libboost-system-dev (>=1.55),libboost-program-options-dev (>=1.55),libzmq3-dev (>=4.0.0),libconfig++-dev (>=1.5),libftdi-dev,libusb-dev,fluid,codeblocks,gtkterm,fxload,libusb-1.0-0-dev,libexpat1-dev:i386,libstdc++-10-dev:i386,libx11-dev:i386,libxext-dev:i386,libncurses5,libsqlite3-dev,libxml2-dev:i386
+Depends: mydep-root,screen,g++,autoconf,automake,libprotobuf-dev (>=2.6),protobuf-compiler,liblog4cpp5-dev (>=1.0),libboost-thread-dev (>=1.55),libboost-system-dev (>=1.55),libboost-program-options-dev (>=1.55),libzmq3-dev (>=4.0.0),libconfig++-dev (>=1.5),libftdi-dev,libusb-dev,fluid,codeblocks,gtkterm,fxload,libusb-1.0-0-dev,libexpat1-dev:i386,libstdc++-10-dev:i386,libx11-dev:i386,libxext-dev:i386,libncurses5,libsqlite3-dev,libxml2-dev:i386,cernlib-base-dev,cernlib-core-dev,cernlib-core,cernlib-montecarlo
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

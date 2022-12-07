@@ -10,7 +10,7 @@ Package: mydep-utils
 Version: 11.5
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: zoom
+Depends: cvs,zoom,valgrind,hp-ppd,printer-driver-hpijs
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

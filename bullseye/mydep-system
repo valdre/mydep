@@ -7,10 +7,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mydep-system
-Version: 11.5
+Version: 11.5-1
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: debian-goodies,doc-debian,gparted,info,linux-headers-amd64,linux-image-amd64,smartmontools,valgrind
+Depends: acpi-support-base,debian-goodies,doc-debian,gparted,info,linux-headers-amd64,linux-image-amd64,smartmontools,usbutils
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

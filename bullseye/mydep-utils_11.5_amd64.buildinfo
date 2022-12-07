@@ -1,17 +1,17 @@
 Format: 1.0
-Source: mydep-net
-Binary: mydep-net
+Source: mydep-utils
+Binary: mydep-utils
 Architecture: all
 Version: 11.5
 Checksums-Md5:
- 0dc8765d6757dd7ba902d33550a960bb 2292 mydep-net_11.5_all.deb
+ d4c78a35f8efc6743550021cf72f5cde 2212 mydep-utils_11.5_all.deb
 Checksums-Sha1:
- b985d17e20eb67f43c793d0b45c205fabc9baf7f 2292 mydep-net_11.5_all.deb
+ 43aabcac0433639178b5821f417f8882dc78d398 2212 mydep-utils_11.5_all.deb
 Checksums-Sha256:
- 9365eb0b56986b2d90b88c8beaa554ae79194b0414473cff0cbfb14d830c1119 2292 mydep-net_11.5_all.deb
+ cb7152a1fcea53d396c48939b52a1e50f522dd27431040667e3607ce0ed085a8 2212 mydep-utils_11.5_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Wed, 07 Dec 2022 10:01:53 +0100
+Build-Date: Wed, 07 Dec 2022 10:47:26 +0100
 Build-Tainted-By:
  usr-local-has-libraries
 Installed-Build-Depends:
@@ -172,4 +172,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="it_IT.UTF-8"
  LD_LIBRARY_PATH="/home/software/exiv2/lib:/home/software/geant4/lib:/home/software/kaliveda/lib:/home/software/root/lib:/usr/lib/x86_64-linux-gnu"
- SOURCE_DATE_EPOCH="1670403712"
+ SOURCE_DATE_EPOCH="1670406445"

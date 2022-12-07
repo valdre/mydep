@@ -1,17 +1,17 @@
 Format: 1.0
-Source: mydep-system
-Binary: mydep-system
+Source: mydep-fazia
+Binary: mydep-fazia
 Architecture: all
-Version: 11.5
+Version: 11.5-1
 Checksums-Md5:
- dd94eecc339b04221478c148363db4bd 2260 mydep-system_11.5_all.deb
+ 49a73934deb33fbc9f2a13a92050802b 2640 mydep-fazia_11.5-1_all.deb
 Checksums-Sha1:
- 82757d0015973b06ca1da60eb461d3d97f739591 2260 mydep-system_11.5_all.deb
+ d503e28a70000ed1c1a1bb3a6d8ec95d8244134c 2640 mydep-fazia_11.5-1_all.deb
 Checksums-Sha256:
- 601a1e4b9ffddf407017184a5e4215b52235c53b1754142567c6bb26dce050f0 2260 mydep-system_11.5_all.deb
+ de7eccd03fd775906f718ee0f964dd165f53fe7e613051669b49184de2cfa67d 2640 mydep-fazia_11.5-1_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Wed, 07 Dec 2022 10:03:43 +0100
+Build-Date: Wed, 07 Dec 2022 10:47:12 +0100
 Build-Tainted-By:
  usr-local-has-libraries
 Installed-Build-Depends:
@@ -172,4 +172,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="it_IT.UTF-8"
  LD_LIBRARY_PATH="/home/software/exiv2/lib:/home/software/geant4/lib:/home/software/kaliveda/lib:/home/software/root/lib:/usr/lib/x86_64-linux-gnu"
- SOURCE_DATE_EPOCH="1670403821"
+ SOURCE_DATE_EPOCH="1670406431"
