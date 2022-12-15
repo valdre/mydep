@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 15 Dec 2022 12:48:53 +0100
+Source: mydep-python
+Binary: mydep-python
+Architecture: all
+Version: 11.0
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-python - My meta-package to install CERN ROOT required and optional header
+Changes:
+ mydep-python (11.0) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ b17fbb3776c3fcbcab63c64af25876e5fb2f9122 2264 mydep-python_11.0_all.deb
+ 50ffa4e22ff0d443928cb6dec1931f9daa5482a2 5087 mydep-python_11.0_amd64.buildinfo
+Checksums-Sha256:
+ a3bf5da4f93ae452fad0ae9236a493ff764a1460fdc125e3634c4869d3dbc72f 2264 mydep-python_11.0_all.deb
+ 65958721fde9602af5fd0070123d2b087c41c3ef80df8370c59f035cf816f1b5 5087 mydep-python_11.0_amd64.buildinfo
+Files:
+ 65b7a92187cd6aea99a852c8aec41aed 2264 misc optional mydep-python_11.0_all.deb
+ a4e40751d0138b362c5e3268b31b5420 5087 misc optional mydep-python_11.0_amd64.buildinfo
