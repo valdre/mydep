@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 17 Apr 2023 11:35:23 +0200
+Source: mydep-system
+Binary: mydep-system
+Architecture: all
+Version: 11.6-1
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-system - My meta-package to install system packages.
+Changes:
+ mydep-system (11.6-1) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ a0886997af04028de1d98bcc3e8ed0a524f5c48f 2320 mydep-system_11.6-1_all.deb
+ ce18b2558f9741cb5ea5960b1468cf14bf46a630 5565 mydep-system_11.6-1_amd64.buildinfo
+Checksums-Sha256:
+ b7e4fab4d53e8220221fdbfa38a0053cc886a209436a5122c920759e3593eb55 2320 mydep-system_11.6-1_all.deb
+ 3267c449f58094a6b046a10813b51eca7f7236c1742ed7d7777afeb6a7b72bee 5565 mydep-system_11.6-1_amd64.buildinfo
+Files:
+ 606cf11b09aa856de0d92233568c79e9 2320 misc optional mydep-system_11.6-1_all.deb
+ b5457b974eedda20c61041b65a94bfc9 5565 misc optional mydep-system_11.6-1_amd64.buildinfo

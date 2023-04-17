@@ -2,7 +2,7 @@
 
 Download:
 	cd /home/software/src
-	git clone http://root.cern.ch/git/root.git
+	git clone http://root.cern/git/root.git
 	cd root
 	git checkout -b <local tag> <remote tag>
 	
@@ -27,7 +27,7 @@ Configure:
 
 Download:
 	cd /home/software/src
-	git clone https://github.com/kaliveda-dev/kaliveda.git
+	git clone --depth=1 https://gitlab.in2p3.fr/kaliveda-dev/kaliveda.git
 	cd kaliveda
 	
 Update sources:
@@ -70,7 +70,7 @@ Build and install:
 	make -j8 install
 	
 Configure:
-	source /home/software/geant4/bin/geant.sh
+	source /home/software/geant4/bin/geant4.sh
 
 ***** FAZIA-ECC
 

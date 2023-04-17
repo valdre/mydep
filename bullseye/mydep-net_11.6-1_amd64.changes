@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 17 Apr 2023 11:35:15 +0200
+Source: mydep-net
+Binary: mydep-net
+Architecture: all
+Version: 11.6-1
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-net  - My meta-package to install network-related packages
+Changes:
+ mydep-net (11.6-1) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 5744aee30476b7cb06e994ef3d025dc91cb0ea4b 2328 mydep-net_11.6-1_all.deb
+ ab2893f89826cbe81dd188acfa657ae978d6f7c9 5550 mydep-net_11.6-1_amd64.buildinfo
+Checksums-Sha256:
+ 15ac66e714630bf1987fe1f702362be0de7e22df20c830db1a1636ca9511d968 2328 mydep-net_11.6-1_all.deb
+ e54836381637f9fa5073afdfd14d7c6e7f50164f34720192b0a30e9788532eac 5550 mydep-net_11.6-1_amd64.buildinfo
+Files:
+ 5502df1ce63f244529900813e18eb609 2328 misc optional mydep-net_11.6-1_all.deb
+ 8ae7c62ab9064ce7c8429ddf324c8280 5550 misc optional mydep-net_11.6-1_amd64.buildinfo
