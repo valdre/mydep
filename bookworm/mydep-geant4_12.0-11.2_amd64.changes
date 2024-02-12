@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 12 Feb 2024 13:05:36 +0100
+Source: mydep-geant4
+Binary: mydep-geant4
+Architecture: all
+Version: 12.0-11.2
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-geant4 - My meta-package to install CERN ROOT required and optional header
+Changes:
+ mydep-geant4 (12.0-11.2) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 3ef8e1480e2419466a55b31ac31d4391b670541a 2272 mydep-geant4_12.0-11.2_all.deb
+ b43092120607dd467a69b750f98907cb48812d8f 5004 mydep-geant4_12.0-11.2_amd64.buildinfo
+Checksums-Sha256:
+ 1ff5a92bd435b672b293a863e9706a33e720dc71ce5c61aee9b2c22a0d57a1a4 2272 mydep-geant4_12.0-11.2_all.deb
+ a4a00395da2e71f9227f6e6fc390f3ef2ffa30316017484d8f12a46d27b6e1a3 5004 mydep-geant4_12.0-11.2_amd64.buildinfo
+Files:
+ 3ee2367a18c9965f786db8a3423412c6 2272 misc optional mydep-geant4_12.0-11.2_all.deb
+ 94a370af0aa713531e0a9ca58876e9e3 5004 misc optional mydep-geant4_12.0-11.2_amd64.buildinfo

@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 12 Feb 2024 13:05:41 +0100
+Source: mydep-root
+Binary: mydep-root
+Architecture: all
+Version: 12.0-6.28
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-root - My meta-package to install CERN ROOT required and optional header
+Changes:
+ mydep-root (12.0-6.28) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ fb7f73dd22cdb0b15571cb9c90035f1e6f1dc566 2596 mydep-root_12.0-6.28_all.deb
+ 0242d10cce9075f8784bd6a82a49747e8d2263d4 4994 mydep-root_12.0-6.28_amd64.buildinfo
+Checksums-Sha256:
+ eb6fa98936ebcf9f9fe9cb3a848b2af991554874304c81846ef5590fbe68262c 2596 mydep-root_12.0-6.28_all.deb
+ 15cfbce2405e3be5645f8d1be1dd10c8c08f42e033dd4df9332f29779c506071 4994 mydep-root_12.0-6.28_amd64.buildinfo
+Files:
+ a887999d311651351448bcb0e6d83be3 2596 misc optional mydep-root_12.0-6.28_all.deb
+ 128eb60b61fd5765d5d5aef98092f783 4994 misc optional mydep-root_12.0-6.28_amd64.buildinfo
