@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Thu, 21 Nov 2024 15:30:38 +0100
+Date: Thu, 21 Nov 2024 15:57:33 +0100
 Source: mydep-root
 Binary: mydep-root
 Architecture: all
@@ -15,11 +15,11 @@ Changes:
  .
    * First version
 Checksums-Sha1:
- 3378dca2774cfb6adcfa5111503506e7024bb625 2604 mydep-root_11.7-6.28_all.deb
- a76ca4320e7fe1fba76cd162fbaa797eaf328012 5002 mydep-root_11.7-6.28_amd64.buildinfo
+ 4f6a5e2d9f4fdde864314ce87b9318e4a14da669 2592 mydep-root_11.7-6.28_all.deb
+ adf7cf0deff04fd91355c8000a48102cbb2e30d8 5002 mydep-root_11.7-6.28_amd64.buildinfo
 Checksums-Sha256:
- 7f060fe28691e0d61c48a4170845eb82bd967d556d81683f01979445e6be3ec5 2604 mydep-root_11.7-6.28_all.deb
- e7af4d13e7a5f93dcee21c44bb0ae8bdcbc3b318eb9571cf08217508235aac6c 5002 mydep-root_11.7-6.28_amd64.buildinfo
+ f77eae425bdf775ee56a0b88dc89389482125c67915673a367516b6974cb9804 2592 mydep-root_11.7-6.28_all.deb
+ bbf1194a0978d9c45cb3fa4c06dc065a07c1822d900c3a09eb224391454c89a4 5002 mydep-root_11.7-6.28_amd64.buildinfo
 Files:
- 61e761725d81816466f89b184d7beb86 2604 misc optional mydep-root_11.7-6.28_all.deb
- d125ba993cd65ec5937f920e9519d3b2 5002 misc optional mydep-root_11.7-6.28_amd64.buildinfo
+ 38c7bf029535ce87ea81ceb447a32953 2592 misc optional mydep-root_11.7-6.28_all.deb
+ ad5008e1bc2a5eec6a276e9f857325e4 5002 misc optional mydep-root_11.7-6.28_amd64.buildinfo
