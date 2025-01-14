@@ -16,7 +16,7 @@ Check latest tag:
 	
 Build and install:
 	cd /home/software/build/root
-	cmake -DCMAKE_INSTALL_PREFIX=/home/software/root -Dunuran=on /home/software/src/root
+	cmake -DCMAKE_INSTALL_PREFIX=/home/software/root -Dproof=on -Dunuran=on /home/software/src/root
 	make -j8 install
 	
 Configure:
