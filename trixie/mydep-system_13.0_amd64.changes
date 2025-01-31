@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Fri, 31 Jan 2025 15:36:25 +0100
+Date: Fri, 31 Jan 2025 15:44:08 +0100
 Source: mydep-system
 Binary: mydep-system
 Architecture: all
@@ -15,11 +15,11 @@ Changes:
  .
    * First version
 Checksums-Sha1:
- 274beeea45d3c5fe4c02ae2de7f3ef498758e923 2472 mydep-system_13.0_all.deb
- 5c86187a7fab58980173d5c2dde47285a18a7680 5019 mydep-system_13.0_amd64.buildinfo
+ 3fb62196313fc5290508277b36e818ce9feff6b1 2476 mydep-system_13.0_all.deb
+ 79b56b8aa9f472242cd704078da7e94be071f06a 5019 mydep-system_13.0_amd64.buildinfo
 Checksums-Sha256:
- cfd4a2b8f4e189fa7ab1bebd01ff51cd5b8a8369e46bc1030d36107937f0b091 2472 mydep-system_13.0_all.deb
- 1a22a00a4cb07cb893405563d7821d7941ed35c105f142100b8d9bc262fcd7d3 5019 mydep-system_13.0_amd64.buildinfo
+ 45d7623c0a13cbd40fee6eaa050307f16dd749757ca771749d6421d10ad7fcc8 2476 mydep-system_13.0_all.deb
+ 3142a83763ad3ddb9494c911af37d95fc53d76a905f4fd355c6e4553b3e6bdfa 5019 mydep-system_13.0_amd64.buildinfo
 Files:
- 3219c520102f0ede4bde189bdfcdc80e 2472 misc optional mydep-system_13.0_all.deb
- 1d067118e7e7185ddbb83c5c5af17f7f 5019 misc optional mydep-system_13.0_amd64.buildinfo
+ 3248de6cfad457dca64bed2a14d36404 2476 misc optional mydep-system_13.0_all.deb
+ dd39464d95700540a999a9eb20571dd3 5019 misc optional mydep-system_13.0_amd64.buildinfo
