@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 12 Mar 2025 14:53:39 +0100
+Source: mydep-cernlib
+Binary: mydep-cernlib
+Architecture: all
+Version: 13.0
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-cernlib - My meta-package to install CERN ROOT required and optional header
+Changes:
+ mydep-cernlib (13.0) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 8603480ce77e620bc8c45f04122111c9c58a22be 2244 mydep-cernlib_13.0_all.deb
+ 4cfa7ec3c6dba87e2687d9ad78f6e4689fef2a90 5024 mydep-cernlib_13.0_amd64.buildinfo
+Checksums-Sha256:
+ 65451f48eb7fc53a187933b5b64182ffe9ffe78b2d244264e5af1027184d28d2 2244 mydep-cernlib_13.0_all.deb
+ 912acf28a3ed05e69ed453a5c8d505ba6c4c72fb715c7ecd9af3a5a66cdbbb6d 5024 mydep-cernlib_13.0_amd64.buildinfo
+Files:
+ ccaefbbeb09f1f7f9ee2a45b4889f6b8 2244 misc optional mydep-cernlib_13.0_all.deb
+ f5918e747df2dfbe80fef93eb0fea43e 5024 misc optional mydep-cernlib_13.0_amd64.buildinfo
