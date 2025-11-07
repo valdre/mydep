@@ -7,10 +7,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mydep-root
-Version: 13.0-6.32
+Version: 13.1-6.32
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: git,cmake,make,g++,gcc,binutils,libpython3-dev,python3-numpy,zlib1g-dev,libfreetype-dev,libpcre3-dev,liblzma-dev,libzstd-dev,libxxhash-dev,liblz4-dev,libx11-dev,libxpm-dev,libxft-dev,libxext-dev,libjpeg-dev,libgif-dev,libpng-dev,libtiff-dev,libafterimage-dev,libgsl-dev,libopengl-dev,libglew-dev,libgl2ps-dev,libxml2-dev,libssl-dev,libblas-dev,libz3-dev,libmysql++-dev,libsqlite3-dev,libfftw3-dev,libcfitsio-dev,libxrootd-dev,libftgl-dev,davix-dev,libtbb-dev,python3-pygments,python3-yaml,libxrootd-client-dev,libunuran-dev
+Depends: git,cmake,make,g++,gcc,binutils,libpython3-dev,python3-numpy,zlib1g-dev,libfreetype-dev,libpcre2-dev,liblzma-dev,libzstd-dev,libxxhash-dev,liblz4-dev,libx11-dev,libxpm-dev,libxft-dev,libxext-dev,libjpeg-dev,libgif-dev,libpng-dev,libtiff-dev,libafterimage-dev,libgsl-dev,libopengl-dev,libglew-dev,libgl2ps-dev,libxml2-dev,libssl-dev,libblas-dev,libz3-dev,libmysql++-dev,libsqlite3-dev,libfftw3-dev,libcfitsio-dev,libxrootd-dev,libftgl-dev,davix-dev,libtbb-dev,python3-pygments,python3-yaml,libxrootd-client-dev,libunuran-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

@@ -2,16 +2,16 @@ Format: 1.0
 Source: mydep-root
 Binary: mydep-root
 Architecture: all
-Version: 13.0-6.32
+Version: 13.1-6.32
 Checksums-Md5:
- 40b02f067a89cfaa288b3f7c50ada4f5 2600 mydep-root_13.0-6.32_all.deb
+ e1b2a9e90a2d8bd8e5345b20a1462243 2600 mydep-root_13.1-6.32_all.deb
 Checksums-Sha1:
- df0d681611d2239c2e95d9b46c3d7db19367bf09 2600 mydep-root_13.0-6.32_all.deb
+ fca2c0d41b6a3718b0c3576dd2be72757d75eb07 2600 mydep-root_13.1-6.32_all.deb
 Checksums-Sha256:
- 83acc2a805d95b9781470d670958cff2de84255502856598fa6e523aef2879c3 2600 mydep-root_13.0-6.32_all.deb
+ d963ae136c946b2512d213cc95429cbe82494ee6aa6d063dd31b17df0b2e14d7 2600 mydep-root_13.1-6.32_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 31 Jan 2025 15:36:22 +0100
+Build-Date: Fri, 07 Nov 2025 18:10:28 +0100
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -168,4 +168,4 @@ Environment:
  LANG="en_US.UTF-8"
  LC_ALL="C"
  LD_LIBRARY_PATH="/home/software/fazia-ecc/lib:/home/software/kaliveda/lib:/home/software/root/lib:/home/software/elarc//lib/"
- SOURCE_DATE_EPOCH="1738334181"
+ SOURCE_DATE_EPOCH="1762535427"
