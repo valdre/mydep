@@ -7,10 +7,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mydep-system
-Version: 13.0
+Version: 13.1
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: acpi-support-base,debian-goodies,cvs,discover,doc-debian,gparted,info,iputils-ping,isc-dhcp-client,linux-headers-amd64,linux-image-amd64,locate,mtr,nano,nedit,net-tools,nfs-kernel-server,reportbug,screen,smartmontools,tcsh,telnet,traceroute,usbutils,xemacs21
+Depends: acpi-support-base,debian-goodies,cvs,discover,doc-debian,gparted,info,iputils-ping,isc-dhcp-client,linux-headers-amd64,linux-image-amd64,locate,mtr,nano,nedit,net-tools,nfs-kernel-server,reportbug,screen,smartmontools,tcsh,telnet,traceroute,usbutils
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

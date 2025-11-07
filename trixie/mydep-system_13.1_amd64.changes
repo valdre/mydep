@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 07 Nov 2025 18:14:34 +0100
+Source: mydep-system
+Binary: mydep-system
+Architecture: all
+Version: 13.1
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-system - My meta-package to install system packages.
+Changes:
+ mydep-system (13.1) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ c23d4e1c3ca8d165b0ec330a5f2c3daaa5564de8 2460 mydep-system_13.1_all.deb
+ 5901e61366fcacece9d557ff74be6aacee77e787 5019 mydep-system_13.1_amd64.buildinfo
+Checksums-Sha256:
+ 5981e353c8f65bb809d10d7deab2cc54783e4807a297c4ef3be78eeaa78ba681 2460 mydep-system_13.1_all.deb
+ 089bf2f9f8363de808a9fc7078adf020cf01d5b4b1d29e61097f4f7182159510 5019 mydep-system_13.1_amd64.buildinfo
+Files:
+ ea0d8080b2ddebfea98d59ec881def95 2460 misc optional mydep-system_13.1_all.deb
+ 33aba06f76068bf5bfcdf48e5b0c9139 5019 misc optional mydep-system_13.1_amd64.buildinfo
