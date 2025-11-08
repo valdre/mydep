@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 08 Nov 2025 10:11:22 +0100
+Source: mydep-fazia
+Binary: mydep-fazia
+Architecture: all
+Version: 13.0
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-fazia - My meta-package to install dependencies required by FAZIA softwar
+Changes:
+ mydep-fazia (13.0) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 6ca88251203d6089ca8bba0f944146b57226dbeb 2412 mydep-fazia_13.0_all.deb
+ 0dcd7615e978390a33f08857192a180f76a6e43c 5014 mydep-fazia_13.0_amd64.buildinfo
+Checksums-Sha256:
+ 4cf9535096cc0a2d2a33fc991814f286fae7b45206e9fc82a50fdc89aac2ae30 2412 mydep-fazia_13.0_all.deb
+ 47aee9cae8b369f2aba27bbeebea4ccdd173a8f971e1ea14977996bbfbc952b9 5014 mydep-fazia_13.0_amd64.buildinfo
+Files:
+ f85101aa10a957586140df729bbda260 2412 misc optional mydep-fazia_13.0_all.deb
+ 6eb31989d072c8bebd8980b0e8c4a23b 5014 misc optional mydep-fazia_13.0_amd64.buildinfo
