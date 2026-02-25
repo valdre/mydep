@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 25 Feb 2026 10:11:29 +0000
+Source: mydep-cernlib
+Binary: mydep-cernlib
+Architecture: all
+Version: 13.1
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-cernlib - My meta-package to install CERNLIB required and optional headers
+Changes:
+ mydep-cernlib (13.1) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 02212733fa09a8c619cabfd9d47a54ed17d49ceb 2240 mydep-cernlib_13.1_all.deb
+ 142233fcfd1beddf51e3aef41cf5d5a2248b0c39 4903 mydep-cernlib_13.1_amd64.buildinfo
+Checksums-Sha256:
+ dc51e49d729109a004a158445edf3893d0314aa5156c2a41d98a34299f919022 2240 mydep-cernlib_13.1_all.deb
+ a7e297d6130747addc5b8978cf8b72d1e64ca70b45c43d7525fb8417ae618e87 4903 mydep-cernlib_13.1_amd64.buildinfo
+Files:
+ 74c48b6d9beab4de05945b14336e9729 2240 misc optional mydep-cernlib_13.1_all.deb
+ 789c28e292daa2edd03afe0fc4d56a0d 4903 misc optional mydep-cernlib_13.1_amd64.buildinfo

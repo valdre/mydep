@@ -25,7 +25,7 @@ Configure:
 	source /home/software/root/bin/thisroot.sh
 
 
-***** CERNLIB
+***** CERNLIB (verified with version 2025.09.18.4-free)
 
 Download:
 	https://cernlib.web.cern.ch/version.html
@@ -34,9 +34,9 @@ Build and install:
 	cd /home/software/build/cernlib
 	cmake -DCMAKE_INSTALL_PREFIX=/home/software/cernlib/ -DCERNLIB_BUILD_SHARED=yes /home/software/src/cernlib/
 	edit “CMakeFiles/paw++.dynamic.dir/link.txt”
-		=> add “-lm -lcrypt” at the end
+		=> add “-lXm -lcrypt” at the end
 	edit “CMakeFiles/pawX11.dynamic.dir/link.txt”
-		=> add “-lm -lcrypt” at the end
+		=> add “-lXm -lcrypt” at the end
 	edit “packlib/CMakeFiles/packlib.dir/link.txt”
 		=> add “/usr/lib/x86_64-linux-gnu/libcrypt.so” at the end
 	make -j8 install

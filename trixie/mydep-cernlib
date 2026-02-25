@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mydep-cernlib
-Version: 13.0
+Version: 13.1
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: mydep-root,gfortran,xutils-dev,libnsl-dev,libxaw7-dev,libxbae-dev
@@ -24,4 +24,4 @@ Depends: mydep-root,gfortran,xutils-dev,libnsl-dev,libxaw7-dev,libxbae-dev
 # Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: My meta-package to install CERN ROOT required and optional headers and libraries.
+Description: My meta-package to install CERNLIB required and optional headers and libraries.

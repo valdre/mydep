@@ -7,10 +7,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: mydep-geant4
-Version: 13.0-11.2
+Version: 13.1-11.4
 Maintainer: Simone Valdre' <valdone87@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: mydep-root,libxerces-c-dev,qtcreator,qtbase5-dev,qt3d5-dev,libxmu-dev,libmotif-dev
+Depends: mydep-root,libxerces-c-dev,qtcreator,qtbase5-dev,qt3d5-dev,libxmu-dev,libmotif-dev,qt6-base-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>

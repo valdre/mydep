@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 25 Feb 2026 10:12:35 +0000
+Source: mydep-geant4
+Binary: mydep-geant4
+Architecture: all
+Version: 13.1-11.4
+Distribution: unstable
+Urgency: low
+Maintainer: Simone Valdre' <valdone87@gmail.com>
+Changed-By: Simone Valdre' <valdone87@gmail.com>
+Description:
+ mydep-geant4 - My meta-package to install GEANT4 required and optional headers a
+Changes:
+ mydep-geant4 (13.1-11.4) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ ea3fb9d4d4a58406fe4d23bc092a8145669d6724 2272 mydep-geant4_13.1-11.4_all.deb
+ fad19809d48180e459b698f9556881be0013f66e 4918 mydep-geant4_13.1-11.4_amd64.buildinfo
+Checksums-Sha256:
+ ccf991ca87f59b0b723790b02401ee0c45322acdaeb561c80a1273c9ef96119e 2272 mydep-geant4_13.1-11.4_all.deb
+ 8ace8b463e05563d1a897c9c760771c8ea4f1a6ec6b9413db6b4afd153bceea6 4918 mydep-geant4_13.1-11.4_amd64.buildinfo
+Files:
+ 825f15e4a31463dd6bbfeb40e68251ac 2272 misc optional mydep-geant4_13.1-11.4_all.deb
+ 42d92c33fef05400d1138ca6ef3340b4 4918 misc optional mydep-geant4_13.1-11.4_amd64.buildinfo
